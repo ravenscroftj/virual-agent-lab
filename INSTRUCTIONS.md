@@ -49,7 +49,12 @@
 ## Train and test the Natural Language Classifier service
 
   1. Create a new classifier instance with the gem_training_questions.csv training file. You can do this programatically via the API or through the tooling.
-    * To access the tooling, click on the NLC instance on your bluemix dashboard and then click on the "Access the beta toolkit" button. ![nlc-tooling-btn](instructions/nlc_tooling_button.png)
+    * To access the tooling:
+      1. click on the NLC instance on your bluemix dashboard 
+      2. click on the "Access the beta toolkit" button. ![nlc-tooling-btn](instructions/nlc_tooling_button.png)
+      3. Log in using your bluemix ID and authorise the tool to manage your NLC instance.
+      4. Click on the import button in the top right hand corner ![nlc-upload-gt](instructions/upload_gt_nlc.png) and upload the NLC ground truth CSV file.
+      5. Click on "Create Classifier" button and enter relevent name and language before confirming. ![nlc-create-tooling](instructions/nlc_create_tooling.png)
     * To create via the API, review the [Create Classifier API Reference materials](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/natural-language-classifier/api/v1/#create_classifier)
 
   2. Capture the Classifier ID.
