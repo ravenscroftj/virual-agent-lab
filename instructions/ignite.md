@@ -32,6 +32,11 @@ Once you have set up your project, create an R&R cluster. Simply enter a name an
 
 ![manifest](ignite-rr/create_cluster.png)
 
+Once you have created your cluster, it should appear as a grey box in the list and its ID and status at the bottom of the page
+
+![manifest](ignite-rr/ignite_created_cluster.png)
+
+
 *You should now refer back to the main instruction set to help you configure the schema.*
 
 
