@@ -72,7 +72,7 @@
 
   ![schema_fields](instructions/fields.png)
 
-  3. Create collection. You must specify the collection name 'virtual_agent_collection'.
+  3. Create collection. You must specify the collection name 'virtual_agent_collection' for this exercise. However, in general this can be set to something of your choice.
 
   [Create Collection API Reference](https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/retrieve-and-rank/api/v1/#create_solr_collection)
 

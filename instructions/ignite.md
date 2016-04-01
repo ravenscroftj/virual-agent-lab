@@ -39,4 +39,34 @@ Once you have created your cluster, it should appear as a grey box in the list a
 
 *You should now refer back to the main instruction set to help you configure the schema.*
 
+## Creating a configuration
+
+Once you have made relevent changes to your schema.xml and updated the config zip file with the most recent version of the schema, you can upload your config via the ignite tool. 
+
+1. From the Solr Architecture tab, select the cluster you wish to upload your config to. The name, status and cluster ID for that cluster should appear in the bottom of the window.
+
+2. In the "Configurations for clusters" section, enter a name for the config and click the '+' button. You will be prompted to select a file. Select the zip file you have just created. The config will now be uploaded to SOLR and appear in the box.
+
+![manifest](ignite-rr/ignite_create_config.png)
+
+## Creating a collection
+
+1. Select the configuration that you want to use for your collection (created in the steps above) by clicking on it.
+2. Enter a name for your new collection (for this exercise, you should use 'virtual_agent_collection' but in future you can customise this) and click the '+' button. The collection should appear in the relevant box below.
+
+![manifest](ignite-rr/ignite_create_collection.png)
+
+## Populating a collection (indexing documents)
+
+Once you have created a collection, you need to upload content to be indexed. 
+
+1. Select the collection you want to add content to and then click on "Index Documents" at the bottom of the screen. 
+
+![manifest](ignite-rr/ignite_select_collection.png)
+
+2. You will be presented with a file dialog, select the JSON document to be indexed 'fda_medwatch_docs.json'
+
+3. A popup will appear to tell you that the upload has started and a second popup will appear when the indexing process is complete.
+
+
 
