@@ -61,9 +61,10 @@
 
 ## Configure, train and test the Retrieve and Rank service
 
-  1. Create a Solr cluster and capture Cluster ID
-
-  [Create Cluster API Reference](https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/retrieve-and-rank/api/v1/#create_solr_cluster)
+  1. Create a Solr cluster and capture Cluster ID 
+  
+  You can either use CURL and the REST APIs directly to do this [Create Cluster API Reference](https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/retrieve-and-rank/api/v1/#create_solr_cluster) or [try out the ignite tooling from cognitive catalyst](instructions/ignite.md).
+  
 
   2. Review the contents of the gem_solr_config directory. Review schema.xml and notice the fields that are defined. When the cluster is READY, upload the solr config gemstone_solr_config.zip to your solr cluster.
 
@@ -71,7 +72,7 @@
 
   ![schema_fields](instructions/fields.png)
 
-  3. Create collection.
+  3. Create collection. You must specify the collection name 'virtual_agent_collection' for this exercise. However, in general this can be set to something of your choice.
 
   [Create Collection API Reference](https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/retrieve-and-rank/api/v1/#create_solr_collection)
 
